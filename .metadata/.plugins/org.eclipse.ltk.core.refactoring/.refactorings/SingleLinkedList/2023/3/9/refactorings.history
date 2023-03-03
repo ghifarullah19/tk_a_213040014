@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;SingleLinkedList/src&apos;&#x0D;&#x0A;- Original project: &apos;SingleLinkedList&apos;&#x0D;&#x0A;- Destination element: &apos;SingleLinkedList/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     SingleLinkedList.Operasi.java&#x0D;&#x0A;     SingleLinkedList.Node.java" description="Copy compilation units" destination="/src" element1="/src&lt;SingleLinkedList{Operasi.java" element2="/src&lt;SingleLinkedList{Node.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1677802529271" units="2" version="1.0"/>
+</session>

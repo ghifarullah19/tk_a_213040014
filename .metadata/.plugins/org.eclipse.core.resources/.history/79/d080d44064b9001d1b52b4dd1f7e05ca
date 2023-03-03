@@ -1,0 +1,20 @@
+package Graph;
+
+public class GraphApp {
+	public static void main(String[] args) {
+		Graph theGraph = new Graph();
+		
+		theGraph.addVertex('A');
+		theGraph.addVertex('A');
+		theGraph.addVertex('A');
+		theGraph.addVertex('A');
+		theGraph.addVertex('A');
+		
+		theGraph.addEdge(0, 1);
+		theGraph.addEdge(0, 1);
+		theGraph.addEdge(0, 1);
+		theGraph.addEdge(0, 1);
+		
+		theGraph.display();
+	}
+}

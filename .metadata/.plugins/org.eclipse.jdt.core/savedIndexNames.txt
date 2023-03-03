@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+D:\UNPAS\PERKULIAHAN\SEMESTER 4\IF21W0403 - TK\tk_a_213040014\.metadata\.plugins\org.eclipse.jdt.core
+847506234.index
+2361772636.index
+3291002090.index
+1865797976.index

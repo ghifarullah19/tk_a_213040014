@@ -1,0 +1,45 @@
+package Stack;
+
+import java.util.Scanner;
+
+import Stack.Operasi;
+
+public class KelasUtama {
+	public static void main(String[] args) {
+		Operasi op = new Operasi();
+		Scanner sc = new Scanner(System.in);
+		
+		int pilihan, input;
+		
+		System.out.println("Selamat Datang...");
+		do {
+			System.out.println("Daftar Menu");
+			System.out.println("1. Pop");
+			System.out.println("2. Pop");
+			System.out.println("3. Jumlah data stack");
+			System.out.println("4. Tampil Data");
+			System.out.println("5. Keluar");
+			System.out.print("Menu pilihan anda: ");
+			
+			pilihan = sc.nextInt();	
+			
+			switch (pilihan) {
+				case 1:
+					System.out.print("Data : ");
+					input = sc.nextInt();
+					op.push(input);
+					break;
+				case 2:
+					op.pop();
+					break;
+				case 3:
+					op.dataSize();
+					break;
+				case 4:
+					op.tampilData();
+					break;
+			}
+		} while (pilihan != 5);
+		sc.close();
+	}
+}
